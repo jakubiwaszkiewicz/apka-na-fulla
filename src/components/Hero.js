@@ -6,10 +6,26 @@ import { useRef } from "react";
 function Hero({ photo, name }) {
   const [text, count] = useTypewriter({
     words: [
-      `Hi, My Name's Jakub!`,
-      "ICT-student.tsx",
-      'CantWorkWithout: "Coffee"',
-      "<fall_in_love_with_web-dev />",
+      `Witam, witam z tej strony Jakub!`,
+      "coffee break - skull rider na BSE (Jaku)",
+      `Witam, witam z tej strony Jakub!`,
+      "1# gejm dżam majster",
+      `Witam, witam z tej strony Jakub!`,
+      "gach Madzi",
+      `Witam, witam z tej strony Jakub!`,
+      "ziomek KrissQa",
+      `Witam, witam z tej strony Jakub!`,
+      "byłem biskupen machen",
+      `Witam, witam z tej strony Jakub!`,
+      "założyciel włochów",
+      `Witam, witam z tej strony Jakub!`,
+      "stary Pawełka",
+      `Witam, witam z tej strony Jakub!`,
+      "after u adiego",
+      `Witam, witam z tej strony Jakub!`,
+      "1# gejm dżam majster",
+      `Witam, witam z tej strony Jakub!`,
+      "33% ze 100% stream majster",
     ],
     loop: true,
     delaySpeed: 2000,
@@ -36,7 +52,7 @@ function Hero({ photo, name }) {
         </h2>
         {windowWidth.current > 768 ? (
           <h2 className=" text-sm uppercase pb-2 tracking-[15px]">
-            Web Developer
+            Baby Member
           </h2>
         ) : (
           <h2 className=" text-sm uppercase pb-2 tracking-[15px]">
@@ -48,11 +64,6 @@ function Hero({ photo, name }) {
           <span className="text-white z-10">{text}</span>
           <Cursor cursorColor="#ffffff" />
         </h1>
-
-        {/* <h1 className='text-5xl lg:text-6xl font-semibold px-10'>
-            <span className='text-white z-10'>{text}</span>
-            <Cursor cursorColor="white"/>
-          </h1> */}
         <div className="pt-5">
           <a href="#about">
             <button className="heroButton">About</button>
