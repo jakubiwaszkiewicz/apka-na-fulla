@@ -18,7 +18,7 @@ function WorkExperience({ expData }) {
             items-center
             z-0"
       >
-        <h1 className="sectionTitle">&nbsp;Experience</h1>
+        <h1 className="sectionTitle">&nbsp;Doświadczenie</h1>
         <div
           className="
             relative

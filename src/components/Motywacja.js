@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-function Why({ desc, photo }) {
+function Motywacja({ desc, photo }) {
   return (
     <motion.div
       initial={{
@@ -15,7 +15,7 @@ function Why({ desc, photo }) {
       }}
       className="relative flex flex-col h-screen md:text:left md:flex-row max-w-7xl lg:px-10 px-3 justify-center mx-auto items-center"
     >
-      <h3 className="sectionTitle">&nbsp;Dlaczego chce tego fulla?</h3>
+      <h3 className="sectionTitle">&nbsp;Motywacja</h3>
       <div className="mt-10 bg-black bg-opacity-50 rounded-lg lg:p-10 p-5 flex flex-col md:text-left md:flex-row max-w-7xl justify-evenly mx-auto items-center">
         <motion.div
           initial={{
@@ -30,14 +30,14 @@ function Why({ desc, photo }) {
           className="space-y-10 px-0 md:px-10"
         >
           <h4 className="text-4xl font-semibold tracking-widest">
-            Po co mi ten&nbsp;
+            Moty
             <span className="underline decoration-[#ffffff] tracking-widest underline-offset-8">
-              Full?
+              wacja
             </span>
           </h4>
           <p className="md:text-base text-sm text-justify">{desc}</p>
         </motion.div>
-        {/* <motion.img
+        <motion.img
           src={photo}
           initial={{
             opacity: 0,
@@ -64,12 +64,11 @@ function Why({ desc, photo }) {
             lg:max-h-[500px]
             xl:w-[450px]
             xl:h-[500px]
-            bg-black
-            bg-opacity-50"
-        /> */}
+            bg-black bg-opacity-50"
+        />
       </div>
     </motion.div>
   );
 }
 
-export default Why;
+export default Motywacja;

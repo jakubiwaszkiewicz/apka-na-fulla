@@ -23,12 +23,14 @@ function Hero({ photo, name }) {
       `Witam, witam z tej strony Jakub!`,
       "after u adiego",
       `Witam, witam z tej strony Jakub!`,
-      "1# gejm dżam majster",
+      "33% ze 100% stream majster",
+      `Witam, witam z tej strony Jakub!`,
+      "ej madzia chcesz mi pomóc z koszulkami?",
       `Witam, witam z tej strony Jakub!`,
       "33% ze 100% stream majster",
     ],
     loop: true,
-    delaySpeed: 2000,
+    delaySpeed: 500,
   });
 
   const windowWidth = useRef(window.innerWidth);
@@ -56,7 +58,7 @@ function Hero({ photo, name }) {
           </h2>
         ) : (
           <h2 className=" text-sm uppercase pb-2 tracking-[15px]">
-            Web Developer
+            Baby Member
           </h2>
         )}
 
@@ -66,13 +68,13 @@ function Hero({ photo, name }) {
         </h1>
         <div className="pt-5">
           <a href="#about">
-            <button className="heroButton">About</button>
+            <button className="heroButton">O mnie</button>
           </a>
           <a href="#experience">
-            <button className="heroButton">Experience</button>
+            <button className="heroButton">Doświadczenie</button>
           </a>
-          <a href="#projects">
-            <button className="heroButton">Projects</button>
+          <a href="#why">
+            <button className="heroButton">Doświadczenie</button>
           </a>
         </div>
       </div>

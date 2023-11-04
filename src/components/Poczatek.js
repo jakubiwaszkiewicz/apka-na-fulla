@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-function About({ desc, photo }) {
+function Poczatek({ desc, photo }) {
   return (
     <motion.div
       initial={{
@@ -15,7 +15,7 @@ function About({ desc, photo }) {
       }}
       className="relative flex flex-col h-screen md:text:left md:flex-row max-w-7xl lg:px-10 px-3 justify-center mx-auto items-center"
     >
-      <h3 className="sectionTitle">&nbsp;About</h3>
+      <h3 className="sectionTitle">&nbsp;Jak to się zaczęło?</h3>
       <div className="mt-10 bg-black bg-opacity-50 rounded-lg lg:p-10 p-5 flex flex-col md:text-left md:flex-row max-w-7xl justify-evenly mx-auto items-center">
         <motion.img
           src={photo}
@@ -46,7 +46,6 @@ function About({ desc, photo }) {
             xl:h-[500px]
             bg-black bg-opacity-50"
         />
-
         <motion.div
           initial={{
             opacity: 0,
@@ -60,9 +59,9 @@ function About({ desc, photo }) {
           className="space-y-10 px-0 md:px-10"
         >
           <h4 className="text-4xl font-semibold tracking-widest">
-            Elo{" "}
+            Jak to się&nbsp;
             <span className="underline decoration-[#ffffff] tracking-widest underline-offset-8">
-              bestiesss!
+              zaczęło?
             </span>
           </h4>
           <p className="md:text-base text-sm text-justify">{desc}</p>
@@ -72,4 +71,4 @@ function About({ desc, photo }) {
   );
 }
 
-export default About;
+export default Poczatek;
