@@ -40,7 +40,6 @@ function WorkExperience({ expData }) {
               img={item.img}
               title={item.title}
               date={item.date}
-              whatHaveIDoneHere={item.desc}
             />
           ))}
         </div>

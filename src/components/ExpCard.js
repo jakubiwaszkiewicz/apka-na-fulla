@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-function ExpCard({ img, whatHaveIDoneHere, title, date }) {
+function ExpCard({ img, title, date }) {
   return (
     <motion.div
       initial={{
@@ -64,33 +64,8 @@ function ExpCard({ img, whatHaveIDoneHere, title, date }) {
           viewport={{ once: true }}
           className="text-md text-left pb-2 w-[250px] sm:w-[500px] text-slate-400"
         >
-          Date: {date}
+          {date}
         </motion.span>
-
-        <motion.pre
-          initial={{
-            opacity: 0,
-          }}
-          whileInView={{
-            opacity: 1,
-          }}
-          transition={{
-            delay: 1.1,
-            duration: 0.5,
-          }}
-          viewport={{ once: true }}
-          className="text-slate-200
-            text-md
-            sm:w-[500px]
-            w-[250px]
-            text-justify
-            overflow-auto
-            scrollbar
-            scrollbar-track-gray-400/20
-            scrollbar-thumb-[#ffffff]"
-        >
-          {whatHaveIDoneHere}
-        </motion.pre>
       </div>
     </motion.div>
   );

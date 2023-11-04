@@ -11,7 +11,7 @@ function Hero({ photo, name }) {
       `Witam, witam z tej strony Jakub!`,
       "1# gejm dżam majster",
       `Witam, witam z tej strony Jakub!`,
-      "gach Madzi",
+      "33% ze 100% stream majster",
       `Witam, witam z tej strony Jakub!`,
       "ziomek KrissQa",
       `Witam, witam z tej strony Jakub!`,
@@ -27,7 +27,7 @@ function Hero({ photo, name }) {
       `Witam, witam z tej strony Jakub!`,
       "ej madzia chcesz mi pomóc z koszulkami?",
       `Witam, witam z tej strony Jakub!`,
-      "33% ze 100% stream majster",
+      "gach Madzi",
     ],
     loop: true,
     delaySpeed: 500,
@@ -67,13 +67,16 @@ function Hero({ photo, name }) {
           <Cursor cursorColor="#ffffff" />
         </h1>
         <div className="pt-5">
-          <a href="#about">
-            <button className="heroButton">O mnie</button>
+          <a href="#poczatek">
+            <button className="heroButton">Jak to się zaczeło?</button>
           </a>
-          <a href="#experience">
-            <button className="heroButton">Doświadczenie</button>
+          <a href="#motywacja">
+            <button className="heroButton">Motywacja</button>
           </a>
           <a href="#why">
+            <button className="heroButton">Dlaczego Full?</button>
+          </a>
+          <a href="#experience">
             <button className="heroButton">Doświadczenie</button>
           </a>
         </div>

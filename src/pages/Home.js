@@ -15,7 +15,7 @@ function Home() {
       <section id="poczatek" className="snap-center">
         <Poczatek photo={aboutData.photo2} desc={aboutData.jaksiezaczelo} />
       </section>
-      <section id="Motywacja" className="snap-center">
+      <section id="motywacja" className="snap-center">
         <Motywacja photo={aboutData.photo3} desc={aboutData.motywacja} />
       </section>
       {/* {Doświadczenie} */}
