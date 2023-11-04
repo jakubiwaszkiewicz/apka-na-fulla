@@ -36,7 +36,7 @@ const aboutData = {
   why:
     "Jako tako Full nie jest obowiązkowym punktem podczas rozwoju bestowego, ale jest to punkt o który zawsze chciałem zahaczyć. " +
     "Na początek, przyszło mi do głowy, że bycie Fullem przyniosłoby mi szerszy wgląd w to, co dzieje się w organizacji. " +
-    "Ponadto, miałbym czynny udział przy podejmowaniu decyzje jako przedstawiciel grupy IT - czyli na czymś na czym najbardziej mi zależy w BESTcie.",
+    "Ponadto, miałbym czynny udział przy podejmowaniu decyzje jako przedstawiciel grupy IT - czyli na czymś na czym najbardziej mi zależy w beście.",
 };
 
 export { expData, aboutData };
